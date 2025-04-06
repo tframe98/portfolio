@@ -1,0 +1,88 @@
+:root {
+    --color-primary: #68705c;
+    --color-secondary: #b7b7a4;
+    --color-accent: #c58c6d;
+    --color-muted: #ddbea9;
+    --color-background: #f1e3d3;
+    --color-light: #fff6eb;
+
+    --font-base: 'Inter', sans-serif;
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+.moving-background {
+    background: url('/src/imgs/portfolioBackground.png') center/cover no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -3;
+    animation: moveBackground 60s linear infinite;
+}
+
+
+@keyframes subtle-wiggle {
+    0%, 100% {
+        transform: scale(1) translate(0, 0);
+        filter: brightness(1) blur(0.5px);
+    }
+    50%{
+        transform: scale(1.01) translate(0.3px, -0.3px);
+        filter: brightness(1.03) blur(1px);
+    }
+}
+
+.distortion-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+    animation: subtle-wiggle 6s ease-in-out infintie;
+    pointer-events: none;
+}
+
+.dark-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -2;
+}
+
+.glass-container {
+    backdrop-filter: blur(12px);
+    background: rgba(255,255,255,0.05);
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 2rem;
+    color: #fff;
+    z-index: 1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
