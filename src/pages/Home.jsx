@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/Home.css";
 
+
 const Home = () => {
   return (
     <div className="home-card">
@@ -13,8 +14,6 @@ const Home = () => {
           <p>Crafting engaging, dynamic, and interactive digital experiences with modern technologies.</p>
           <Link to="/portfolio" className="cta-button">View My Work</Link>
         </div>
-        {/* Background Animation Placeholder (You could integrate your particle animation here) */}
-        <canvas id="hero-background"></canvas>
       </section>
 
       {/* Introduction */}
@@ -40,7 +39,7 @@ const Home = () => {
       </section>
 
       {/* Featured Projects or Highlights */}
-      <section className="featured-projects-section">
+      <section className="featured-projects-section"> 
         <h3>Featured Projects</h3>
         <div className="featured-projects">
           <div className="project-card">
@@ -64,6 +63,7 @@ const Home = () => {
           <p>
             My projects incorporate subtle animations, custom visual effects, and interactive elements to enhance user engagement without compromising usability.
           </p>
+          
           {/* Example Interactive Placeholder */}
           <div className="interactive-example">
             <p>Hover over elements in my projects to explore subtle interactivity and animation.</p>

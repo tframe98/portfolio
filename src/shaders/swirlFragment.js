@@ -49,7 +49,7 @@ export const swirlFragment = `
     uv.x *= aspect;
 
     // Animate time
-    float t = u_time * 0.2;
+    float t = u_time * 0.08;
 
     // Domain warp for swirling effect: offset the UVs with FBM
     vec2 warp = vec2(
@@ -74,6 +74,7 @@ export const swirlFragment = `
     vec3 colorInside = vec3(0.1);  // black
     vec3 colorOutside = vec3(1.0); // white
     vec3 baseColor = mix(colorInside, colorOutside, boundary);
+    
 
     // Darken along the detected edges
     baseColor = mix(baseColor, vec3(0.9), line * 0.6);

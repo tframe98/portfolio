@@ -9,9 +9,9 @@
     background: var(--glass-bg); 
     border-radius: 16px;
     border: 1px solid var(--glass-border); 
-    padding: 1.5rem;
+    padding: var(--padding-sm);
     color: var(--color-primary); 
-    z-index: 1;
+    z-index: 2;
   }
 
 .nav-links {
@@ -29,5 +29,25 @@
 }
 
 .nav-links a:hover {
-    color:var(--color-background);
+    color:var(--color-accent);
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    width: var(--width-md);
+}
+
+.logo-img {
+    width: var(--width-md);
+    height: var(height-md);
+    border-radius: 6px;
+}
+

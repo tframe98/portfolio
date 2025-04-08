@@ -1,14 +1,55 @@
 .contact-card {
-  position: fixed;
-  display: flex;
-  top: 10rem;
-  left: 10rem;
-  width: auto;
-  backdrop-filter: blur(12px);
-  background: var(--glass-bg); 
-  border-radius: 16px;
-  border: 1px solid var(--glass-border); 
-  padding: 1.5rem;
-  color: var(--color-primary); 
+  position: relative;
   z-index: 1;
+  backdrop-filter: blur(12px);
+  background: var(--glass-bg);
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  padding: var(--padding-lg);
+  color: var(--color-primary);
+  max-width: 600px;
+  margin: var(--margin-xxl) auto;
 }
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  padding: var(--padding-sm);
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  background: rgba(255,255,255,0.2);
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.contact-btn {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: none;
+  padding: var(--padding-sm);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: var(--color-hover);
+}
+
