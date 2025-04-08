@@ -1,2 +1,17 @@
-const Portfolio = () => <h1>Portfolio Page</h1>
+import "../styles/Portfolio.css"
+
+const Portfolio = () => {
+  return(
+  <div className='portfolio-card'>
+  <h1>Portfolio Page</h1>
+  </div>
+  )
+}
+
+
+
+
+
+
+
 export default Portfolio;

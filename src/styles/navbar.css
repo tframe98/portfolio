@@ -1,18 +1,25 @@
+/* In your Navbar component's CSS */
 .navbar {
+    position: fixed;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: var(--color-primary);
-    color: var(--color-light);
-}
+    top: 0;
+    left: 0;
+    width: 100%;
+    backdrop-filter: blur(12px);
+    background: var(--glass-bg); 
+    border-radius: 16px;
+    border: 1px solid var(--glass-border); 
+    padding: 1.5rem;
+    color: var(--color-primary); 
+    z-index: 1;
+  }
 
 .nav-links {
-    list-style: none;
     display: flex;
     gap: 1.5rem;
-    padding: 0;
-    margin: 0;
+    padding-left: 72rem;
+    align-items: center;
+    
 }
 
 .nav-links a {
@@ -22,5 +29,5 @@
 }
 
 .nav-links a:hover {
-    color: #f0a500;
+    color:var(--color-background);
 }

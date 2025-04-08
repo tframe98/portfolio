@@ -1,0 +1,14 @@
+.portfolio-card {
+  position: fixed;
+  display: flex;
+  top: 10rem;
+  left: 25rem;
+  width: auto;
+  backdrop-filter: blur(12px);
+  background: var(--glass-bg); 
+  border-radius: 16px;
+  border: 1px solid var(--glass-border); 
+  padding: 1.5rem;
+  color: var(--color-primary); 
+  z-index: 1;
+}
