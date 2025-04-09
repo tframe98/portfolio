@@ -1,14 +1,45 @@
 .portfolio-card {
-  position: fixed;
-  display: flex;
-  top: 10rem;
-  left: 25rem;
-  width: auto;
-  backdrop-filter: blur(12px);
-  background: var(--glass-bg); 
-  border-radius: 16px;
-  border: 1px solid var(--glass-border); 
-  padding: 1.5rem;
-  color: var(--color-primary); 
+  position: relative;
   z-index: 1;
+  max-width: 1000px;
+  margin: var(--margin-xxl) auto;
+  padding: var(--padding-lg);
+  backdrop-filter: blur(12px);
+  background: var(--glass-bg);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  display: flex;
+}
+
+.portfolio-project {
+  display: flex;
+  gap: var(--spacing-lg);
+  align-items: center;
+}
+
+.project-image img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.project-details {
+  flex: 1;
+  color: var(--color-primary);
+}
+
+.case-study-btn {
+  display: inline-block;
+  margin-top: var(--spacing-md);
+  padding: var(--padding-sm) var(--padding-md);
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.case-study-btn:hover {
+  background-color: var(--color-hover);
 }

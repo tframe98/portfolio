@@ -4,7 +4,7 @@ import Home from '../src/pages/Home';
 import Portfolio from '../src/pages/Portfolio';
 import About from '../src/pages/About';
 import Contact from '../src/pages/Contact';
-
+import PixLPortalZCaseStudy from './pages/PixLPortalZCaseStudy';
 
 const App = () => {
   return (
@@ -18,6 +18,7 @@ const App = () => {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio/pixl-portalz" element={<PixLPortalZCaseStudy />} />
         </Routes>
       </main>
     </Router>

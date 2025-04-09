@@ -43,9 +43,9 @@ const Home = () => {
         <h3>Featured Projects</h3>
         <div className="featured-projects">
           <div className="project-card">
-            <h4>AppointMate Scheduling Platform</h4>
-            <p>An intuitive, business-focused appointment scheduling solution built with React and Express.</p>
-            <Link to="/portfolio" className="project-link">Explore Project →</Link>
+            <h4>PixL portalZ</h4>
+            <p>An intuitive, 2d vertical game.</p>
+            <Link to="/portfolio/pixl-portalz" className="project-link">Explore Project →</Link>
           </div>
 
           <div className="project-card">
