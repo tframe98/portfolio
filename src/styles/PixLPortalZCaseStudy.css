@@ -1,6 +1,5 @@
 /* PixL PortalZ Case Study Styles */
 .case-study-card {
-  
     position: relative;
     z-index: 1;
     backdrop-filter: blur(10px);
@@ -10,41 +9,29 @@
     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     max-width: 1200px;
     margin: var(--spacing-xxl) auto;
-  
-}
-.case-study-container {
-  position: relative;
-  z-index: 1;
-  max-width: 1000px;
-  margin: var(--margin-xl) auto;
-  padding: var(--padding-lg);
-  backdrop-filter: blur(12px);
-  background: var(--glass-bg);
-  border-radius: 12px;
-  border: 1px solid var(--glass-border);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
-  color: var(--color-primary);
+    list-style: none;
 }
 
-.case-study-container h1,
-.case-study-container h2,
-.case-study-container h3 {
+
+.case-study-card h1,
+.case-study-card h2,
+.case-study-card h3 {
   margin-bottom: var(--spacing-sm);
 }
 
-.case-study-container p,
-.case-study-container ul {
+.case-study-card p,
+.case-study-card ul {
   margin-bottom: var(--spacing-md);
   line-height: 1.6;
 }
 
-.case-study-container ul {
+.case-study-card ul {
   padding-left: var(--spacing-lg);
   list-style-type: disc;
 }
 
-.case-study-container img,
-.case-study-container video {
+.case-study-card img,
+.case-study-card video {
   max-width: 100%;
   border-radius: 10px;
   margin: var(--spacing-md) 0;
@@ -62,4 +49,17 @@
 
 .case-study-btn:hover {
   background-color: var(--color-hover);
+}
+
+.showcase-image {
+  width: var(--width-xxl);
+  padding: var(--padding-md);
+}
+
+ul, li {
+  list-style: none;
+}
+
+.media-showcase {
+  grid: repeat(4, 80px) / auto-flow;
 }

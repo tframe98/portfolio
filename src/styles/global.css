@@ -41,6 +41,7 @@
     --width-md: 3rem;
     --width-lg: 4rem;
     --width-xl: 5rem;
+    --width-xxl: 35rem;
 
     --glass-bg: rgba(255, 255, 255, 0.05);
     --glass-border: rgba(255, 255, 255, 0.15);
