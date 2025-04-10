@@ -49,27 +49,12 @@ const Home = () => {
           </div>
 
           <div className="project-card">
-            <h4>TrioFinance Manager</h4>
-            <p>A multi-language financial portfolio management app designed for financial advisors using Java, Python, and React.</p>
-            <Link to="/portfolio" className="project-link">Explore Project →</Link>
+            <h4>Appointmate</h4>
+            <p>An intuitive, business-focused appointment scheduling solution built with React and Express.</p>
+            <Link to="/portfolio/appointmate" className="project-link">Explore Project →</Link>
           </div>
         </div>
-      </section>
-
-      {/* Visual and Interactive Elements */}
-      <section className="interactive-section">
-        <div className="interactive-content">
-          <h3>Interactive Experiences</h3>
-          <p>
-            My projects incorporate subtle animations, custom visual effects, and interactive elements to enhance user engagement without compromising usability.
-          </p>
-          
-          {/* Example Interactive Placeholder */}
-          <div className="interactive-example">
-            <p>Hover over elements in my projects to explore subtle interactivity and animation.</p>
-          </div>
-        </div>
-      </section>
+      </section> 
     </div>
   );
 };

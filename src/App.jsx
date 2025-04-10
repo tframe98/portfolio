@@ -5,12 +5,11 @@ import Portfolio from '../src/pages/Portfolio';
 import About from '../src/pages/About';
 import Contact from '../src/pages/Contact';
 import PixLPortalZCaseStudy from './pages/PixLPortalZCaseStudy';
+import AppointmateCaseStudy from './pages/AppointmateCaseStudy';
 
 const App = () => {
   return (
     <Router>
-      
-      
       <Navbar />
       <main >
         <Routes>
@@ -19,6 +18,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio/pixl-portalz" element={<PixLPortalZCaseStudy />} />
+          <Route path="/portfolio/appointmate" element={<AppointmateCaseStudy />} />
         </Routes>
       </main>
     </Router>
