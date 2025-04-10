@@ -9,7 +9,7 @@
     background: var(--glass-bg); 
     border-radius: 16px;
     border: 1px solid var(--glass-border); 
-    padding: var(--padding-sm);
+    padding: var(--padding-md);
     color: var(--color-primary); 
     z-index: 2;
   }
@@ -17,7 +17,7 @@
 .nav-links {
     display: flex;
     gap: 1.5rem;
-    padding-left: 72rem;
+    padding-left: var(--padding-xxl);
     align-items: center;
     
 }
