@@ -33,10 +33,10 @@ const PixLPortalZCaseStudy = () => {
 
     <h2>Gameplay Showcase</h2>
     <div className="media-showcase">
-      <img src="/public/imgs/pixl-portalz-1.png" alt="PixL PortalZ Gameplay" className='showcase-image' />
-      <img src="/public/imgs/pixl-portalz-2.png" alt="PixL PortalZ Gameplay" className='showcase-image' />
-      <img src="/public/imgs/pixl-portalz-3.png" alt="PixL PortalZ Gameplay" className='showcase-image' />
-      <img src="/public/imgs/pixl-portalz-4.png" alt="PixL PortalZ Gameplay" className='showcase-image' />
+      <img src="/imgs/pixl-portalz-1.png" alt="PixL PortalZ Gameplay" className='showcase-image' />
+      <img src="/imgs/pixl-portalz-2.png" alt="PixL PortalZ Gameplay" className='showcase-image' />
+      <img src="/imgs/pixl-portalz-3.png" alt="PixL PortalZ Gameplay" className='showcase-image' />
+      <img src="/imgs/pixl-portalz-4.png" alt="PixL PortalZ Gameplay" className='showcase-image' />
     </div>
 
     <h2>Outcomes & Achievements</h2>

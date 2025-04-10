@@ -6,7 +6,7 @@ const Portfolio = () => {
     <div className="portfolio-card">
       <div className="portfolio-project">
         <div className="project-image">
-          <img src="/public/imgs/pixl-portalz-1.png" alt="PixL PortalZ" />
+          <img src="/imgs/pixl-portalz-1.png" alt="PixL PortalZ" />
         </div>
         <div className="project-details">
           <h3>PixL PortalZ</h3>
