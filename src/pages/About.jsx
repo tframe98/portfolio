@@ -7,7 +7,7 @@ const About = () => {
       <div className="about-container">
         <div className="about-image">
           
-          <img src="./public/imgs/headshot.jpg" alt="Tyler Frame" />
+          <img src="/imgs/headshot.jpg" alt="Tyler Frame" />
         </div>
 
         <div className="about-content">
