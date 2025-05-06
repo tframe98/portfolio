@@ -84,10 +84,11 @@ section {
 .project-card {
   flex: 1;
   min-width: 250px;
-  padding: var(--spacing-md);
+  padding: var(--spacing-lg);
   background-color: var(--glass-bg);
   border-radius: 10px;
   transition: transform 0.3s ease;
+  
 }
 
 .project-card:hover {
@@ -98,6 +99,7 @@ section {
   color: var(--color-accent);
   font-weight: bold;
   text-decoration: none;
+  
 }
 
 .interactive-example {

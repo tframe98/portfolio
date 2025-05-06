@@ -5,7 +5,7 @@ import Portfolio from '../src/pages/Portfolio';
 import About from '../src/pages/About';
 import Contact from '../src/pages/Contact';
 import PixLPortalZCaseStudy from './pages/PixLPortalZCaseStudy';
-import AppointmateCaseStudy from './pages/AppointmateCaseStudy';
+import OrbitalGasStationCaseStudy from './pages/OrbitalGasStationCaseStudy';
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio/pixl-portalz" element={<PixLPortalZCaseStudy />} />
-          <Route path="/portfolio/appointmate" element={<AppointmateCaseStudy />} />
+          <Route path="/portfolio/OrbitalGasStationCaseStudy" element={<OrbitalGasStationCaseStudy />} />
         </Routes>
       </main>
     </Router>

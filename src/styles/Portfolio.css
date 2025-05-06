@@ -3,6 +3,7 @@
   z-index: 1;
   max-width: 1000px;
   margin: var(--margin-xxl) auto;
+  
   padding: var(--padding-lg);
   backdrop-filter: blur(12px);
   background: var(--glass-bg);
